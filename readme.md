@@ -13,7 +13,7 @@ The SA_Delirium library offers the following key features:
 
 ## Project Structure
 The repository has the following structure:
-- [`data`](./data/): Calibration dataset template ([`calibration_template.csv`](./data/calibration_template.csv)), data transfer template ([`X_test_template.json`](./data/X_test.json)) and sample files ([`calibration.csv`](./data/calibration.csv), [`X_test.json`](./data/X_test_template.json))
+- [`data`](./data/): Calibration dataset template ([`calibration_template.csv`](./data/calibration_template.csv)), data transfer template ([`X_test_template.json`](./data/X_test_template.json)) and sample files ([`calibration.csv`](./data/calibration.csv), [`X_test.json`](./data/X_test.json))
 - [`examples`](./examples/): Jupyter notebooks demonstrating usage examples for (multiple) calibrated prediction ([`Calibrated_Prediction.ipynb`](./examples/Calibrated_Prediction.ipynb), [`Multiple_Calibrated_Predictions.ipynb`](./examples/Multiple_Calibrated_Predictions.ipynb)), imputation ([`Imputation.ipynb`](./examples/Imputation.ipynb)), and ROC-AUC analysis ([`ROC_AUC.ipynb`](./examples/ROC_AUC.ipynb))
 - [`pod_predictor`](./pod_predictor/): Implementation of the PODPredictor class, including initialization ([`__init__.py`](./pod_predictor/__init__.py)), inference ([`inference.py`](./pod_predictor/inference.py)), and utility functions ([`utils.py`](./pod_predictor/utils.py))
 - [`requirements.txt`](./requirements.txt): List of required Python packages for this project
@@ -44,7 +44,7 @@ This project is licensed under the MIT License.
 ## Citation
 If you use this code in your research, please cite our paper:
 
-[Insert citation information here]
+[The associated paper has been submitted for publication. The citation details will be updated once the paper is accepted.]
 
 ## Contributing
 
