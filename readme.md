@@ -12,7 +12,7 @@ The SA_Delirium library offers the following key features:
 - **Handling of Missing Values**: SA_Delirium includes flexible imputation tools to address missing data points, ensuring more accurate predictions. Choose from simple imputation methods (mean, median, mode) based on the training dataset or utilize the KNNImputer for more sophisticated handling of missing values.
 
 ## Model Training
-The POD prediction model was trained on the PAWEL dataset, consisting of 878 patients (209 with POD, 669 without POD), aged 70 years or older, who underwent elective surgery at one of five centers in the state of Baden-Württemberg, Germany between June 2017 and January 2019. For a detailed overview of the model training procedure, please refer to the corresponding [GitHub repository](https://github.com/IfGF-UUlm/SURGE-Ahead_Delirium) and the associated publication ([Benovic et al., 2024](https://doi.org/10.1093/ageing/afae101)).
+The POD prediction model was trained on the PAWEL dataset, consisting of 878 patients (209 with POD, 669 without POD), aged 70 years or older, who underwent elective surgery at one of five centers in the state of Baden-Württemberg, Germany between June 2017 and January 2019. It utilizes a linear support vector machine architecture. For a detailed overview of the model training procedure, please refer to the corresponding [GitHub repository](https://github.com/IfGF-UUlm/SURGE-Ahead_Delirium) and the associated publication ([Benovic et al., 2024](https://doi.org/10.1093/ageing/afae101)).
 
 ## Project Structure
 The repository has the following structure:
