@@ -27,7 +27,7 @@ The repository has the following structure:
 
 ## Getting Started
 To get started with SA_Delirium, follow these steps:
-1. Clone this repository to your local machine using git clone https://github.com/IfGF-UUlm/SA_Delirium.git.
+1. Clone this repository to your local machine using `git clone https://github.com/IfGF-UUlm/SA_Delirium.git`.
 2. Set up the virtual environment by running the provided script: `python3 setup.py`. The script will create the virtual environment, activate it, and install the required dependencies.
 3. Run the main script with `python3 run.py` to test the library.
 4. Use the provided examples in the examples folder to explore different usage scenarios.
