@@ -32,6 +32,31 @@ To get started with SA_Delirium, follow these steps:
 3. Run the main script with `python3 run.py` to test the library.
 4. Use the provided examples in the examples folder to explore different usage scenarios.
 
+## Data Input
+The SA_Delirium library accepts the following data types as input:
+- Numpy array 
+- Python dictionary 
+- Pandas DataFrame 
+- Json ([template](./data/X_test_template.json) provided)
+
+The following features are used for POD prediction:
+- Estimated Cut-to-Suture Time (minutes): The estimated cut-to-suture time can be either the surgeon's estimation or the empirical mean time of the procedure.
+- Age (months): Age in months.
+- GFR (Cockcroft-Gault, ml/min): Estimated glomerular filtration rate using the Cockcroft-Gault Formula.
+- ASA Class (score): American Society of Anesthesiologists physical status classification system.
+- MoCA Orientation (subscore): Montreal Cognitive Assessment (MoCA) Orientation subscore.
+- MoCA Memory (subscore): Montreal Cognitive Assessment (MoCA) Memory subscore.
+- Number of Medications (n): Number of long-term medications, excluding on-demand medication.
+- Multimorbidity (score): Modified Charlson Comorbidity Index (CCI). The considered co-morbidities were myocardial infarction, congestive heart failure, peripheral vascular disease, cerebrovascular disease, dementia, chronic pulmonary disease (1 point each), liver disease (1 if mild, else 3), diabetes mellitus (1 if without complications, else 2), and renal disease (2 points).
+- Clinical Frailty Scale (score): Frailty assessment using the [Clinical Frailty Scale](https://www.bgs.org.uk/sites/default/files/content/attachment/2018-07-05/rockwood_cfs.pdf).
+- MoCA Verbal Fluency (subscore): Montreal Cognitive Assessment (MoCA) Verbal Fluency subscore.
+- Dementia (Yes/No): Presence of dementia.
+- Recent Fall (Yes/No): Fall(s) within the last 3 months.
+- Post-OP Isolation (Yes/No): Anticipated isolation after the operation, e.g., due to antibiotic-resistant bacteria.
+- Pre-OP Benzodiazepines (Yes/No): Use of pre-operative benzodiazepines, either as (on-demand) premedication or long-term medication.
+- Cardio-Pulmonary Bypass (Yes/No): Use of cardio-pulmonary bypass during surgery.
+To save time, the 5-minute version of the MoCA ([Wong et al. 2015](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4373962/)) can also be used, with the original scoring system from the full MoCA applied to each subscore.
+
 ## Dependencies
 This project requires Python 3.x and the following packages:
 - numpy
