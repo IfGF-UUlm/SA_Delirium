@@ -55,6 +55,7 @@ The following features are used for POD prediction:
 - Post-OP Isolation (Yes/No): Anticipated isolation after the operation, e.g., due to antibiotic-resistant bacteria.
 - Pre-OP Benzodiazepines (Yes/No): Use of pre-operative benzodiazepines, either as (on-demand) premedication or long-term medication.
 - Cardio-Pulmonary Bypass (Yes/No): Use of cardio-pulmonary bypass during surgery.
+
 To save time, the 5-minute version of the MoCA ([Wong et al. 2015](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4373962/)) can also be used, with the original scoring system from the full MoCA applied to each subscore.
 
 ## Dependencies
