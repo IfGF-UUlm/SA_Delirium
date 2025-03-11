@@ -71,9 +71,9 @@ You can install all dependencies by running `pip install -r requirements.txt`.
 This project is licensed under the MIT License.
 
 ## Citation
-If you use this code in your research, please cite our paper:
+If you use this POD prediction model or its code in your research, please cite our paper:
 
-[The associated paper has been submitted for publication. The citation details will be updated once the paper is accepted.]
+Kocar TD, Wolf P, Leinert C, Brefka S, Fotteler ML, Uihlein A, et al. SURGE-ahead postoperative delirium prediction: external validation and open-source library. Eur Geriatr Med 2025. https://doi.org/10.1007/s41999-025-01180-5.
 
 ## Contributing
 
