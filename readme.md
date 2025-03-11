@@ -73,11 +73,24 @@ This project is licensed under the MIT License.
 ## Citation
 If you use this POD prediction model or its code in your research, please cite our paper:
 
-Kocar TD, Wolf P, Leinert C, Brefka S, Fotteler ML, Uihlein A, et al. SURGE-ahead postoperative delirium prediction: external validation and open-source library. Eur Geriatr Med 2025. https://doi.org/10.1007/s41999-025-01180-5.
-
+```bibtex
+@article{kocar_surge-ahead_2025,
+	title = {{SURGE}-ahead postoperative delirium prediction: external validation and open-source library},
+	issn = {1878-7657},
+	shorttitle = {{SURGE}-ahead postoperative delirium prediction},
+	url = {https://link.springer.com/10.1007/s41999-025-01180-5},
+	doi = {10.1007/s41999-025-01180-5},
+	language = {en},
+	urldate = {2025-03-11},
+	journal = {European Geriatric Medicine},
+	author = {Kocar, Thomas Derya and Wolf, Philip and Leinert, Christoph and Brefka, Simone and Fotteler, Marina L. and Uihlein, Adriane and Wezel, Felix and Wehling, Martin and Rahbari, Nuh and Kestler, Hans and Gebhard, Florian and Dallmeier, Dhayana and Denkinger, Michael},
+	month = mar,
+	year = {2025}
+}
+```
 ## Contributing
 
 The SA_Delirium library is open to contributions from the community. If you would like to collaborate on the development of this project, please reach out to us at thomas.kocar@uni-ulm.de. We also accept pull requests via GitHub, which should include a clear description of the proposed changes and adhere to standard coding practices. Thank you for considering contributing to SA_Delirium!
 
 ## Contact
-For any questions, feedback, or concerns, please contact us at thomas.kocar@uni-ulm.de.
+For any questions, feedback, or concerns, or if you need help implementing the algorithm, please contact us at thomas.kocar@uni-ulm.de.
