@@ -71,23 +71,42 @@ You can install all dependencies by running `pip install -r requirements.txt`.
 This project is licensed under the MIT License.
 
 ## Citation
-If you use this POD prediction model or its code in your research, please cite our paper:
+If you use this POD prediction model or its code in your research, please cite our papers:
 
 ```bibtex
-@article{kocar_surge-ahead_2025,
-	title = {{SURGE}-ahead postoperative delirium prediction: external validation and open-source library},
-	issn = {1878-7657},
-	shorttitle = {{SURGE}-ahead postoperative delirium prediction},
-	url = {https://link.springer.com/10.1007/s41999-025-01180-5},
-	doi = {10.1007/s41999-025-01180-5},
-	language = {en},
-	urldate = {2025-03-11},
-	journal = {European Geriatric Medicine},
+@article{kocar_sa_delirium_2025,
 	author = {Kocar, Thomas Derya and Wolf, Philip and Leinert, Christoph and Brefka, Simone and Fotteler, Marina L. and Uihlein, Adriane and Wezel, Felix and Wehling, Martin and Rahbari, Nuh and Kestler, Hans and Gebhard, Florian and Dallmeier, Dhayana and Denkinger, Michael},
+	title = {{SURGE}-ahead postoperative delirium prediction: external validation and open-source library},
+	shorttitle = {{SURGE}-ahead postoperative delirium prediction},
+	journal = {European Geriatric Medicine},
+	year = {2025},
 	month = mar,
-	year = {2025}
+	issn = {1878-7657},
+	doi = {10.1007/s41999-025-01180-5},
+	url = {https://link.springer.com/10.1007/s41999-025-01180-5},
+	urldate = {2025-03-11},
+	language = {en},	
 }
 ```
+```bibtex
+@article{benovic_delirium_2024,
+  	author = {Benovic, Samuel and Ajlani, Anna H and Leinert, Christoph and Fotteler, Marina and Wolf, Dennis and Steger, Florian and Kestler, Hans and Dallmeier, Dhayana and Denkinger, Michael and Eschweiler, Gerhard W and Thomas, Christine and Kocar, Thomas D},
+  	title = {Introducing a machine learning algorithm for delirium prediction—the {Supporting} {Surgery} with {Geriatric} {Co-Management} and {AI} project ({SURGE}-{Ahead})},
+  	journal = {Age and Ageing},
+  	volume = {53},
+  	number = {5},
+  	pages = {afae101},
+  	year = {2024},
+  	month = may,
+  	issn = {0002-0729, 1468-2834},
+  	doi = {10.1093/ageing/afae101},
+  	url = {https://academic.oup.com/ageing/article/doi/10.1093/ageing/afae101/7679266},
+  	urldate = {2024-06-18},
+  	language = {en},
+  	copyright = {https://creativecommons.org/licenses/by/4.0/},
+}
+```
+
 ## Contributing
 
 The SA_Delirium library is open to contributions from the community. If you would like to collaborate on the development of this project, please reach out to us at thomas.kocar@uni-ulm.de. We also accept pull requests via GitHub, which should include a clear description of the proposed changes and adhere to standard coding practices. Thank you for considering contributing to SA_Delirium!
